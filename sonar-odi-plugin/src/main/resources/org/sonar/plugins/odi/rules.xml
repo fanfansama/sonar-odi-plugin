@@ -1,0 +1,22 @@
+<!-- Generated using CodeNarc 0.16 -->
+<rules>
+
+  <rule key="org.codenarc-odi.rule.exceptions.CatchErrorRule" priority="MINOR">
+    <name><![CDATA[Catch Error]]></name>
+    <configKey><![CDATA[CatchError]]></configKey>
+    <description><![CDATA[Catching <em>Error</em> is dangerous; it can catch exceptions such as <em>ThreadDeath</em> and <em>OutOfMemoryError</em>.]]></description>
+  </rule>
+
+  <rule key="org.codenarc-odi.rule.exceptions.CatchExceptionRule" priority="MINOR">
+    <name><![CDATA[Catch Exception]]></name>
+    <configKey><![CDATA[CatchException]]></configKey>
+    <description><![CDATA[Catching <em>Exception</em> is often too broad or general. It should usually be restricted to framework or infrastructure code, rather than application code.]]></description>
+  </rule>
+
+  <rule key="org.codenarc-odi.rule.exceptions.CatchNullPointerExceptionRule" priority="MINOR">
+    <name><![CDATA[Catch Null Pointer Exception]]></name>
+    <configKey><![CDATA[CatchNullPointerException]]></configKey>
+    <description><![CDATA[Catching <em>NullPointerException</em> is never appropriate. It should be avoided in the first place with proper null checking, and it can mask underlying errors.]]></description>
+  </rule>
+
+</rules>

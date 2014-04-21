@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>my.group</groupId>
+	<artifactId>sonar-odi-plugin</artifactId>
+	<packaging>sonar-plugin</packaging>
+	<name>My ODI Sonar plugin</name>
+	<description>Enables ODI Analysis</description>
+
+	<properties>
+		<project.jdk.revision>1.6</project.jdk.revision>
+		<sonar.version>2.13</sonar.version>
+		<odi.version>1.0.0.0</odi.version>
+    	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    	<sourceEncoding>UTF-8</sourceEncoding>
+    	<resourceEncoding>UTF-8</resourceEncoding>    	
+    	<maven.min.version>2.0</maven.min.version>
+	</properties>
+
+	<parent>
+		<artifactId>sonar</artifactId>
+		<groupId>org.codehaus.sonar</groupId>
+		<version>2.13</version>
+	</parent>
+
+
+	<!-- optional -->
+	<organization>
+		<name>StepInfo</name>
+		<url>http://www.stepinfo.com</url>
+	</organization>
+	<inceptionYear>2012</inceptionYear>
+	<developers>
+		<developer>
+			<id>fberthault</id>
+			<name>François Berthault</name>
+		</developer>
+	</developers>
+
+  
+	<dependencies>
+		<dependency>
+			<groupId>org.codehaus.sonar</groupId>
+			<artifactId>sonar-plugin-api</artifactId>
+		</dependency>
+
+		<!-- unit tests -->
+		<dependency>
+			<groupId>org.codehaus.sonar</groupId>
+			<artifactId>sonar-testing-harness</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+
+	<build>
+		
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.codehaus.sonar</groupId>
+				<artifactId>sonar-packaging-maven-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<pluginName>Odi</pluginName>
+					<pluginDescription><![CDATA[Analyze Odi model/code with Odi-Sonar-Plugin ${odi.version}.]]></pluginDescription>
+					<pluginClass>org.sonar.plugins.odi.OdiPlugin</pluginClass>
+					<useChildFirstClassLoader>true</useChildFirstClassLoader>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>2.0.2</version>
+				<configuration>
+					<source>${project.jdk.revision}</source>
+					<target>${project.jdk.revision}</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+
+		</plugins>
+	</build>
+</project>

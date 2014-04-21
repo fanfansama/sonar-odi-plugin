@@ -1,0 +1,324 @@
+
+<BugCollection timestamp='1330251124706' analysisTimestamp='1330256856798' sequence='0' release='' version='2.0.0'>
+<Project projectName='My ODI Sonar plugin'>
+<Jar>F:\JAVA\workspace-sonar\sonar-odi-plugin\target\classes</Jar>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\mojo\findbugs-maven-plugin\2.4.0\findbugs-maven-plugin-2.4.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\gmaven-mojo\1.3\gmaven-mojo-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\runtime\gmaven-runtime-api\1.3\gmaven-runtime-api-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\feature\gmaven-feature-api\1.3\gmaven-feature-api-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\runtime\gmaven-runtime-1.5\1.3\gmaven-runtime-1.5-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\feature\gmaven-feature-support\1.3\gmaven-feature-support-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\groovy\groovy-all-minimal\1.5.8\groovy-all-minimal-1.5.8.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\ant\ant\1.7.1\ant-1.7.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\ant\ant-launcher\1.7.1\ant-launcher-1.7.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\jline\jline\0.9.94\jline-0.9.94.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.1\plexus-interpolation-1.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\gmaven-plugin\1.3\gmaven-plugin-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\runtime\gmaven-runtime-loader\1.3\gmaven-runtime-loader-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\gmaven\runtime\gmaven-runtime-support\1.3\gmaven-runtime-support-1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\sonatype\gshell\gshell-io\2.0\gshell-io-2.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\thoughtworks\qdox\qdox\1.10\qdox-1.10.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\shared\file-management\1.2.1\file-management-1.2.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\shared\maven-shared-io\1.1\maven-shared-io-1.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\slf4j\slf4j-api\1.5.10\slf4j-api-1.5.10.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\sonatype\gossip\gossip\1.2\gossip-1.2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\2.1\maven-reporting-impl-2.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-validator\commons-validator\1.2.0\commons-validator-1.2.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-logging\commons-logging\1.0.4\commons-logging-1.0.4.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\groovy\groovy-all\1.7.4\groovy-all-1.7.4.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\doxia\doxia-core\1.1.3\doxia-core-1.1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.1.3\doxia-logging-api-1.1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xerces\xercesImpl\2.9.1\xercesImpl-2.9.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.1.3\doxia-sink-api-1.1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.1.3\doxia-decoration-model-1.1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.1.3\doxia-site-renderer-1.1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.1.3\doxia-module-xhtml-1.1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\doxia\doxia-module-fml\1.1.3\doxia-module-fml-1.1.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\plexus\plexus-velocity\1.1.7\plexus-velocity-1.1.7.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\velocity\velocity\1.5\velocity-1.5.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-collections\commons-collections\3.2\commons-collections-3.2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\apache\maven\shared\maven-doxia-tools\1.2.1\maven-doxia-tools-1.2.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-io\commons-io\1.4\commons-io-1.4.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\code\findbugs\findbugs-ant\2.0.0\findbugs-ant-2.0.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\code\findbugs\findbugs\2.0.0\findbugs-2.0.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\code\findbugs\bcel\2.0.0\bcel-2.0.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\code\findbugs\jsr305\2.0.0\jsr305-2.0.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\code\findbugs\jFormatString\2.0.0\jFormatString-2.0.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\code\findbugs\annotations\2.0.0\annotations-2.0.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\jaxen\jaxen\1.1.1\jaxen-1.1.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xom\xom\1.0\xom-1.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xerces\xmlParserAPIs\2.6.2\xmlParserAPIs-2.6.2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xalan\xalan\2.6.0\xalan-2.6.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\ibm\icu\icu4j\2.6.1\icu4j-2.6.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\asm\asm\3.3\asm-3.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\asm\asm-tree\3.3\asm-tree-3.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\asm\asm-commons\3.3\asm-commons-3.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\jgoodies\plastic\1.2.0\plastic-1.2.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\plexus\plexus-resources\1.0-alpha-4\plexus-resources-1.0-alpha-4.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.1\plexus-utils-1.5.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\sonar\sonar-plugin-api\2.14-SNAPSHOT\sonar-plugin-api-2.14-SNAPSHOT.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\sonar\sonar-check-api\2.14-SNAPSHOT\sonar-check-api-2.14-SNAPSHOT.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\sonar\sonar-colorizer\2.14-SNAPSHOT\sonar-colorizer-2.14-SNAPSHOT.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\sonar\sonar-channel\2.14-SNAPSHOT\sonar-channel-2.14-SNAPSHOT.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\sonar\sonar-duplications\2.14-SNAPSHOT\sonar-duplications-2.14-SNAPSHOT.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\sonar\sonar-graph\2.14-SNAPSHOT\sonar-graph-2.14-SNAPSHOT.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\sonar\sonar-squid\2.14-SNAPSHOT\sonar-squid-2.14-SNAPSHOT.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\picocontainer\picocontainer\2.14.1\picocontainer-2.14.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\hibernate\hibernate-annotations\3.4.0.GA\hibernate-annotations-3.4.0.GA.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\hibernate\ejb3-persistence\1.0.2.GA\ejb3-persistence-1.0.2.GA.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\hibernate\hibernate-commons-annotations\3.1.0.GA\hibernate-commons-annotations-3.1.0.GA.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\guava\guava\10.0.1\guava-10.0.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-configuration\commons-configuration\1.6\commons-configuration-1.6.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-beanutils\commons-beanutils\1.8.3\commons-beanutils-1.8.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-io\commons-io\2.0.1\commons-io-2.0.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\jfree\jfreechart\1.0.9\jfreechart-1.0.9.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\jfree\jcommon\1.0.12\jcommon-1.0.12.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\slf4j\slf4j-api\1.6.2\slf4j-api-1.6.2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\slf4j\jcl-over-slf4j\1.6.2\jcl-over-slf4j-1.6.2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\slf4j\log4j-over-slf4j\1.6.2\log4j-over-slf4j-1.6.2.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\com\thoughtworks\xstream\xstream\1.3.1\xstream-1.3.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xpp3\xpp3\1.1.3.3\xpp3-1.1.3.3.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\woodstox\woodstox-core-lgpl\4.0.4\woodstox-core-lgpl-4.0.4.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\woodstox\stax2-api\3.0.1\stax2-api-3.0.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\codehaus\staxmate\staxmate\2.0.0\staxmate-2.0.0.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xerces\xercesImpl\2.8.1\xercesImpl-2.8.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xml-apis\xml-apis\1.3.03\xml-apis-1.3.03.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\org\hibernate\hibernate-core\3.3.2.GA\hibernate-core-3.3.2.GA.jar</AuxClasspathEntry>
+<AuxClasspathEntry>C:\Users\francois\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar</AuxClasspathEntry>
+<SrcDir>F:\JAVA\workspace-sonar\sonar-odi-plugin\src\main\java</SrcDir>
+<WrkDir>F:\JAVA\workspace-sonar\sonar-odi-plugin\target</WrkDir>
+</Project>
+<BugInstance category='MALICIOUS_CODE' instanceHash='f1bb7cc0d0ded5a5fd165bc4f45fb7e2' rank='16' instanceOccurrenceNum='0' priority='1' abbrev='MS' type='MS_SHOULD_BE_FINAL' instanceOccurrenceMax='0'>
+<ShortMessage>Un champ n'est pas final alors qu'il devrait l'&#xea;tre</ShortMessage>
+<LongMessage>org.sonar.plugins.odi.foundation.Odi.INSTANCE n'est pas final mais devrait l'&#xea;tre</LongMessage>
+<Class classname='org.sonar.plugins.odi.foundation.Odi' primary='true'>
+<SourceLine start='8' classname='org.sonar.plugins.odi.foundation.Odi' sourcepath='org/sonar/plugins/odi/foundation/Odi.java' sourcefile='Odi.java' end='15'>
+<Message>At Odi.java:[lines 8-15]</Message>
+</SourceLine>
+<Message>In class org.sonar.plugins.odi.foundation.Odi</Message>
+</Class>
+<Field isStatic='true' classname='org.sonar.plugins.odi.foundation.Odi' name='INSTANCE' primary='true' signature='Lorg/sonar/plugins/odi/foundation/Odi;'>
+<SourceLine classname='org.sonar.plugins.odi.foundation.Odi' sourcepath='org/sonar/plugins/odi/foundation/Odi.java' sourcefile='Odi.java'>
+<Message>In Odi.java</Message>
+</SourceLine>
+<Message>Field org.sonar.plugins.odi.foundation.Odi.INSTANCE</Message>
+</Field>
+<SourceLine endBytecode='7' startBytecode='7' start='8' classname='org.sonar.plugins.odi.foundation.Odi' primary='true' sourcepath='org/sonar/plugins/odi/foundation/Odi.java' sourcefile='Odi.java' end='8'>
+<Message>At Odi.java:[line 8]</Message>
+</SourceLine>
+</BugInstance>
+<BugInstance category='EXPERIMENTAL' instanceHash='f596b6571c79610bd5aaa03cd7ef77f5' rank='20' instanceOccurrenceNum='0' priority='2' abbrev='OBL' type='OBL_UNSATISFIED_OBLIGATION' instanceOccurrenceMax='0'>
+<ShortMessage>Method may fail to clean up stream or resource</ShortMessage>
+<LongMessage>org.sonar.plugins.odi.rules.OdiRuleRepository.createRules() may fail to clean up java.io.InputStream</LongMessage>
+<Class classname='org.sonar.plugins.odi.rules.OdiRuleRepository' primary='true'>
+<SourceLine start='17' classname='org.sonar.plugins.odi.rules.OdiRuleRepository' sourcepath='org/sonar/plugins/odi/rules/OdiRuleRepository.java' sourcefile='OdiRuleRepository.java' end='26'>
+<Message>At OdiRuleRepository.java:[lines 17-26]</Message>
+</SourceLine>
+<Message>In class org.sonar.plugins.odi.rules.OdiRuleRepository</Message>
+</Class>
+<Method isStatic='false' classname='org.sonar.plugins.odi.rules.OdiRuleRepository' name='createRules' primary='true' signature='()Ljava/util/List;'>
+<SourceLine endBytecode='106' startBytecode='0' start='24' classname='org.sonar.plugins.odi.rules.OdiRuleRepository' sourcepath='org/sonar/plugins/odi/rules/OdiRuleRepository.java' sourcefile='OdiRuleRepository.java' end='26'>
+</SourceLine>
+<Message>In method org.sonar.plugins.odi.rules.OdiRuleRepository.createRules()</Message>
+</Method>
+<Class classname='java.io.InputStream' role='CLASS_REFTYPE'>
+<SourceLine start='28' classname='java.io.InputStream' sourcepath='java/io/InputStream.java' sourcefile='InputStream.java' end='350'>
+<Message>At InputStream.java:[lines 28-350]</Message>
+</SourceLine>
+<Message>Reference type java.io.InputStream</Message>
+</Class>
+<Int value='1' role='INT_OBLIGATIONS_REMAINING'>
+<Message>1 instances of obligation remaining</Message>
+</Int>
+<SourceLine endBytecode='15' startBytecode='15' start='25' classname='org.sonar.plugins.odi.rules.OdiRuleRepository' primary='true' sourcepath='org/sonar/plugins/odi/rules/OdiRuleRepository.java' role='SOURCE_LINE_OBLIGATION_CREATED' sourcefile='OdiRuleRepository.java' end='25'>
+<Message>Obligation to clean up resource created at OdiRuleRepository.java:[line 25] is not discharged</Message>
+</SourceLine>
+<SourceLine endBytecode='27' startBytecode='27' start='26' classname='org.sonar.plugins.odi.rules.OdiRuleRepository' sourcepath='org/sonar/plugins/odi/rules/OdiRuleRepository.java' role='SOURCE_LINE_PATH_CONTINUES' sourcefile='OdiRuleRepository.java' end='26'>
+<Message>Path continues at OdiRuleRepository.java:[line 26]</Message>
+</SourceLine>
+<String value='{InputStream x 1}' role='STRING_REMAINING_OBLIGATIONS'>
+<Message>Remaining obligations: {InputStream x 1}</Message>
+</String>
+</BugInstance>
+<BugCategory category='MALICIOUS_CODE'>
+<Description>Malicious code vulnerability</Description>
+</BugCategory>
+<BugCategory category='EXPERIMENTAL'>
+<Description>Experimental</Description>
+</BugCategory>
+<BugPattern category='EXPERIMENTAL' abbrev='OBL' type='OBL_UNSATISFIED_OBLIGATION'>
+<ShortDescription>Method may fail to clean up stream or resource</ShortDescription>
+<Details>
+          
+          &lt;p&gt;
+          This method may fail to clean up (close, dispose of) a stream,
+          database object, or other
+          resource requiring an explicit cleanup operation.
+          &lt;/p&gt;
+
+          &lt;p&gt;
+          In general, if a method opens a stream or other resource,
+          the method should use a try/finally block to ensure that
+          the stream or resource is cleaned up before the method
+          returns.
+          &lt;/p&gt;
+
+          &lt;p&gt;
+          This bug pattern is essentially the same as the
+          OS_OPEN_STREAM and ODR_OPEN_DATABASE_RESOURCE
+          bug patterns, but is based on a different
+          (and hopefully better) static analysis technique.
+          We are interested is getting feedback about the
+          usefulness of this bug pattern.
+          To send feedback, either:
+          &lt;/p&gt;
+          &lt;ul&gt;
+            &lt;li&gt;send email to findbugs@cs.umd.edu&lt;/li&gt;
+            &lt;li&gt;file a bug report: &lt;a href="http://findbugs.sourceforge.net/reportingBugs.html"&gt;http://findbugs.sourceforge.net/reportingBugs.html&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+
+          &lt;p&gt;
+          In particular,
+          the false-positive suppression heuristics for this
+          bug pattern have not been extensively tuned, so
+          reports about false positives are helpful to us.
+          &lt;/p&gt;
+
+          &lt;p&gt;
+          See Weimer and Necula, &lt;i&gt;Finding and Preventing Run-Time Error Handling Mistakes&lt;/i&gt;, for
+          a description of the analysis technique.
+          &lt;/p&gt;
+          
+      </Details>
+</BugPattern>
+<BugPattern category='MALICIOUS_CODE' abbrev='MS' type='MS_SHOULD_BE_FINAL'>
+<ShortDescription>Un champ n'est pas final alors qu'il devrait l'&#xea;tre</ShortDescription>
+<Details>
+
+&lt;p&gt;Un champ statique modifiable peut-&#xea;tre chang&#xe9; par accident ou par du code malveillant d'un autre paquetage. Le champ devrait &#xea;tre final pour &#xe9;viter cette vuln&#xe9;rabilit&#xe9;.&lt;/p&gt;
+
+  </Details>
+</BugPattern>
+<BugCode abbrev='OBL'>
+<Description>Unsatisfied obligation to clean up stream or resource</Description>
+</BugCode>
+<BugCode abbrev='MS' cweid='218'>
+<Description>Champ statique modifiable</Description>
+</BugCode>
+<Errors errors='0' missingClasses='1'>
+<MissingClass>org.apache.maven.project.MavenProject</MissingClass>
+</Errors>
+<FindBugsSummary alloc_mbytes='494.94' priority_2='1' priority_1='1' gc_seconds='0.27' peak_mbytes='47.42' total_bugs='2' referenced_classes='99' timestamp='Sun, 26 Feb 2012 11:12:04 +0100' total_classes='12' num_packages='5' total_size='230' cpu_seconds='3.20' clock_seconds='3.20' vm_version='16.0-b13'>
+<FileStats path='org/sonar/plugins/odi/OdiPlugin.java' bugCount='0' size='25'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/OdiSensor.java' bugCount='0' size='36'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/foundation/Odi.java' bugCount='1' bugHash='55f69a421d7b4cc64607bab15d9db718' size='10'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/rules/CodeNarcExecutor.java' bugCount='0' size='19'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/rules/OdiConstants.java' bugCount='0' size='6'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/rules/OdiProfileExporter.java' bugCount='0' size='42'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/rules/OdiProfileImporter.java' bugCount='0' size='42'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/rules/OdiRuleRepository.java' bugCount='1' bugHash='744a46139caa38bbe2edfbc320c8cd83' size='11'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/rules/SonarWayProfile.java' bugCount='0' size='8'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/utils/OdiUtils.java' bugCount='0' size='8'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/widget/SampleDashboardWidget.java' bugCount='0' size='9'>
+</FileStats>
+<FileStats path='org/sonar/plugins/odi/widget/SampleMetrics.java' bugCount='0' size='14'>
+</FileStats>
+<PackageStats total_size='61' package='org.sonar.plugins.odi' total_bugs='0' total_types='2'>
+<ClassStats sourceFile='OdiPlugin.java' bugs='0' class='org.sonar.plugins.odi.OdiPlugin' interface='false' size='25'>
+</ClassStats>
+<ClassStats sourceFile='OdiSensor.java' bugs='0' class='org.sonar.plugins.odi.OdiSensor' interface='false' size='36'>
+</ClassStats>
+</PackageStats>
+<PackageStats priority_1='1' total_size='10' package='org.sonar.plugins.odi.foundation' total_bugs='1' total_types='1'>
+<ClassStats priority_1='1' sourceFile='Odi.java' bugs='1' class='org.sonar.plugins.odi.foundation.Odi' interface='false' size='10'>
+</ClassStats>
+</PackageStats>
+<PackageStats priority_2='1' total_size='128' package='org.sonar.plugins.odi.rules' total_bugs='1' total_types='6'>
+<ClassStats sourceFile='CodeNarcExecutor.java' bugs='0' class='org.sonar.plugins.odi.rules.CodeNarcExecutor' interface='false' size='19'>
+</ClassStats>
+<ClassStats sourceFile='OdiConstants.java' bugs='0' class='org.sonar.plugins.odi.rules.OdiConstants' interface='false' size='6'>
+</ClassStats>
+<ClassStats sourceFile='OdiProfileExporter.java' bugs='0' class='org.sonar.plugins.odi.rules.OdiProfileExporter' interface='false' size='42'>
+</ClassStats>
+<ClassStats sourceFile='OdiProfileImporter.java' bugs='0' class='org.sonar.plugins.odi.rules.OdiProfileImporter' interface='false' size='42'>
+</ClassStats>
+<ClassStats priority_2='1' sourceFile='OdiRuleRepository.java' bugs='1' class='org.sonar.plugins.odi.rules.OdiRuleRepository' interface='false' size='11'>
+</ClassStats>
+<ClassStats sourceFile='SonarWayProfile.java' bugs='0' class='org.sonar.plugins.odi.rules.SonarWayProfile' interface='false' size='8'>
+</ClassStats>
+</PackageStats>
+<PackageStats total_size='8' package='org.sonar.plugins.odi.utils' total_bugs='0' total_types='1'>
+<ClassStats sourceFile='OdiUtils.java' bugs='0' class='org.sonar.plugins.odi.utils.OdiUtils' interface='false' size='8'>
+</ClassStats>
+</PackageStats>
+<PackageStats total_size='23' package='org.sonar.plugins.odi.widget' total_bugs='0' total_types='2'>
+<ClassStats sourceFile='SampleDashboardWidget.java' bugs='0' class='org.sonar.plugins.odi.widget.SampleDashboardWidget' interface='false' size='9'>
+</ClassStats>
+<ClassStats sourceFile='SampleMetrics.java' bugs='0' class='org.sonar.plugins.odi.widget.SampleMetrics' interface='false' size='14'>
+</ClassStats>
+</PackageStats>
+<FindBugsProfile>
+<ClassProfile avgMicrosecondsPerInvocation='1081' maxMicrosecondsPerInvocation='51520' name='edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine' invocations='611' totalMilliseconds='660' standardDeviationMircosecondsPerInvocation='2948'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='510' maxMicrosecondsPerInvocation='27576' name='edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine' invocations='608' totalMilliseconds='310' standardDeviationMircosecondsPerInvocation='1530'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='1507' maxMicrosecondsPerInvocation='64188' name='edu.umd.cs.findbugs.detect.ExplicitSerialization' invocations='99' totalMilliseconds='149' standardDeviationMircosecondsPerInvocation='6619'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='2944' maxMicrosecondsPerInvocation='91878' name='edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory' invocations='43' totalMilliseconds='126' standardDeviationMircosecondsPerInvocation='13956'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='1270' maxMicrosecondsPerInvocation='17627' name='edu.umd.cs.findbugs.detect.FieldItemSummary' invocations='99' totalMilliseconds='125' standardDeviationMircosecondsPerInvocation='2457'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='733' maxMicrosecondsPerInvocation='29465' name='edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine' invocations='124' totalMilliseconds='90' standardDeviationMircosecondsPerInvocation='3037'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='1803' maxMicrosecondsPerInvocation='71136' name='edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory' invocations='43' totalMilliseconds='77' standardDeviationMircosecondsPerInvocation='10701'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='746' maxMicrosecondsPerInvocation='19104' name='edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers' invocations='99' totalMilliseconds='73' standardDeviationMircosecondsPerInvocation='2179'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='228' maxMicrosecondsPerInvocation='4857' name='edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory' invocations='296' totalMilliseconds='67' standardDeviationMircosecondsPerInvocation='466'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='1448' maxMicrosecondsPerInvocation='11744' name='edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory' invocations='43' totalMilliseconds='62' standardDeviationMircosecondsPerInvocation='2830'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='100' maxMicrosecondsPerInvocation='4696' name='edu.umd.cs.findbugs.util.TopologicalSort' invocations='588' totalMilliseconds='59' standardDeviationMircosecondsPerInvocation='375'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='1282' maxMicrosecondsPerInvocation='14605' name='edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory' invocations='46' totalMilliseconds='58' standardDeviationMircosecondsPerInvocation='2913'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='417' maxMicrosecondsPerInvocation='32199' name='edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory' invocations='129' totalMilliseconds='53' standardDeviationMircosecondsPerInvocation='2810'>
+</ClassProfile>
+<ClassProfile avgMicrosecondsPerInvocation='1134' maxMicrosecondsPerInvocation='18909' name='edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory' invocations='46' totalMilliseconds='52' standardDeviationMircosecondsPerInvocation='3019'>
+</ClassProfile>
+</FindBugsProfile>
+</FindBugsSummary>
+<ClassFeatures>
+</ClassFeatures>
+<History>
+</History>
+</BugCollection>

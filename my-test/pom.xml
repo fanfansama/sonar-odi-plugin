@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>my.group</groupId>
+  <artifactId>my-test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>My ODI Project Test</name>
+  
+  <build> 
+    <sourceDirectory>src/main/odi</sourceDirectory>
+  </build>
+   
+  <properties>
+    <sonar.language>odi</sonar.language>
+    <sonar.dynamicAnalysis>false</sonar.dynamicAnalysis>
+    
+	<sonar.odi.jdbc.url>jdbc</sonar.odi.jdbc.url>
+	<sonar.odi.jdbc.driver>oarcle</sonar.odi.jdbc.driver>
+	<sonar.odi.login.secured>login</sonar.odi.login.secured>
+	<sonar.odi.password.secured>password</sonar.odi.password.secured>    
+  <!--   <sonar.odi.metrics.reportPath>ex-xml-rapport/findbugsXml.xml</sonar.odi.metrics.reportPath> -->
+    
+  </properties>  
+  
+  
+</project>

@@ -1,0 +1,21 @@
+<profile>
+  <name>Sonar Odi Way</name>
+  <language>odi</language>
+  <rules>
+    <rule>
+      <repositoryKey>odi</repositoryKey>
+      <key>org.codenarc-odi.rule.exceptions.CatchErrorRule</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule>
+      <repositoryKey>odi</repositoryKey>
+      <key>org.codenarc-odi.rule.exceptions.CatchExceptionRule</key>
+      <priority>MAJOR</priority>
+    </rule>
+    <rule>
+      <repositoryKey>odi</repositoryKey>
+      <key>org.codenarc-odi.rule.exceptions.CatchNullPointerExceptionRule</key>
+      <priority>CRITICAL</priority>
+    </rule>
+  </rules>
+</profile>    
